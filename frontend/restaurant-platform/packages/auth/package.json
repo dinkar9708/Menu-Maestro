@@ -1,0 +1,15 @@
+{
+  "name": "@packages/auth",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "dependencies": {
+    "tailwind-config": "*"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.x",
+    "postcss": "^8.x",
+    "autoprefixer": "^10.x"
+  },
+  "private": true
+}

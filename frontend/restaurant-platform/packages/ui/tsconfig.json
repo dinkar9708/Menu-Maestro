@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "outDir": "dist",
+    "jsx": "react-jsx", // ✅ for React 17+ JSX
+    "types": ["react"]
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}

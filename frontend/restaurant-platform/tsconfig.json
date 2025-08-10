@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "@packages/ui": ["packages/ui/src"],
+      "@packages/auth": ["packages/auth/src"]
+    },
+    "jsx": "react-jsx" // ✅ Modern JSX (no need to import React)
+  },
+  "exclude": ["node_modules", "dist"]
+}
